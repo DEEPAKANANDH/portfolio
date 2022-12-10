@@ -1,0 +1,39 @@
+p{ /* Type Selector */
+    color:black;
+}
+*{ /* Universal Selector */
+    color:blueviolet;
+}
+#abt{ /*id selector*/
+    color:red;
+}
+.greentext{ /*class selector*/
+    color:greenyellow;
+}
+div p{ /*descendant or child selector*/
+    color:rgb(5,34,29);
+    color: #0096bb;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+#conc{
+    text-align: center;
+}
+h4{
+    border:2px solid red;
+    background-color:#ac7f2c;
+    text-align:center;
+}
+body{
+    background-image: url("images1.jpg");
+    background-repeat: no-repeat;
+  /*  background-size: cover;*/
+  background-position:right top;
+    margin-right:200px;
+}
+body #img
+{
+    width: 50rem;
+    height: 50rem;
+}
+
